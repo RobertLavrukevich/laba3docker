@@ -3,29 +3,25 @@
 ## Выполненные шаги:
 
 ### 1. Установка Git
-- Установлена версия: `git version 2.xx.x`
+- Установлена версия: ![git version](images/Снимок экрана 2025-10-01 172238.png)
 
 ### 2. Скачивание репозитория
-- Репозиторий склонирован: [URL]
-- Содержимое: HTML файл с "Hello World"
+- Репозиторий склонирован: ![clone reposit](images/Снимок экрана 2025-10-02 135524.png)
+- Содержимое: HTML файл с "GRSU Lavrukevich"
 
 ### 3. Установка Docker
-- Установлена версия: `Docker version 24.x.x`
+- Установлена версия: ![docker version](images/Снимок экрана 2025-10-01 172122.png)
 
 ### 4. Установка Docker Compose
-- Установлена версия: `Docker Compose version v2.x.x`
+- Установлена версия: ![dockercomposs version](images/Снимок экрана 2025-10-01 172213.png)
 
-### 5. Скриншоты
-- Приложены скриншоты версий ПО
+### 5. Запуск Nginx контейнера
+- Собран контейнер: ![runcontainer](images/Снимок экрана 2025-10-02 172116.png)
+- Запущен контейнер: ![runcontainer](images/Снимок экрана 2025-10-02 172137.png)
+- HTML файл скопирован в контейнер, cтраница изменена на "GRSU Lavrukevich": ![copy](images/Снимок экрана 2025-10-02 172157.png)
+- Проверка в браузере: http://localhost:9999
 
-### 6. Запуск Nginx контейнера
-- Запущен контейнер: `docker run -d --name my-nginx -p 80:80 nginx`
-- HTML файл скопирован в контейнер: `docker cp index.html my-nginx:/usr/share/nginx/html/index.html`
-- ИЛИ использовано монтирование папки
-- Страница изменена на "GRGU"
-- Проверка в браузере: http://localhost
-
-### 7-8. Создан README.md
+### 6. Создан README.md
 - Файл с описанием работы
 
 ### 9. Git workflow
